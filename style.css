@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.top_of_page_img {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+h1 {
+  text-align: center;
+  color: rgb(206, 3, 3);
+}
+.intro_para {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.intro_box {
+  margin: 0 auto;
+  border: 2px black solid;
+  width: 90%;
+  margin-bottom: 10px;
+  background-color: rgb(206, 3, 3);
+  color: white;
+}
+.img_box_one {
+  display: flex;
+  align-items: center;
+}
+.img_box_one p {
+  margin-left: 16px;
+}
+.img_box_one figcaption {
+  font-size: 12px;
+  margin-left: 12px;
+}
+.img_box_one img {
+  margin-left: 12px;
+  margin-top: 12px;
+  border: 2px solid black;
+}
+.img_box_two {
+  display: flex;
+  align-items: center;
+}
+.img_box_two p {
+  margin-left: 16px;
+}
+.img_box_two figcaption {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+.img_box_two img {
+  margin-right: 12px;
+  border: 2px solid black;
+}
+.container_two {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.container_two a {
+  text-decoration: none;
+}
+.container_two a:visited {
+  text-decoration: none;
+  color: blue;
+}
+.container_two a:hover {
+  color: red;
+}
+.container_three h2 {
+  margin-left: 16px;
+}
+.container_three p {
+  margin: 16px;
+}
+.trip {
+  text-align: center;
+  margin-top: 24px;
+}
+table {
+  margin: 24px auto;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+.cont {
+  margin-left: 25px;
+}
+.contact {
+  text-align: center;
+}
+.imageinfo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.imageinfo img {
+  width: 35px;
+  padding: 12px;
+}
+.imageinfo p {
+  font-size: 18px;
+}
+footer {
+  text-align: center;
+  margin: 25px;
+  font-size: 25px;
+}
+footer a {
+  margin: 12px;
+  text-decoration: none;
+}
+.footer a:visited {
+  text-decoration: none;
+  color: blue;
+}
+footer a:hover {
+  color: red;
+}
+.copy_right {
+  text-align: center;
+  margin-bottom: 12px;
+}
